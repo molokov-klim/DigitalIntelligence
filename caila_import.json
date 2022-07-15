@@ -16,7 +16,38 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 11237549,
+    "id" : 11237617,
+    "path" : "/Согласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "буду"
+    }, {
+      "text" : "хочу"
+    }, {
+      "text" : "начнем"
+    }, {
+      "text" : "согласен"
+    }, {
+      "text" : "давай"
+    }, {
+      "text" : "Давай"
+    }, {
+      "text" : "да"
+    }, {
+      "text" : "Да"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "Number",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "Я загадал число. Твоя догадка? ", "Предположи число." ],
+      "array" : true
+    } ],
+    "priority" : 0
+  }, {
+    "id" : 11237613,
     "path" : "/Число",
     "enabled" : true,
     "shared" : false,
@@ -28,11 +59,12 @@
       "name" : "Number",
       "entity" : "duckling.number",
       "required" : true,
-      "prompts" : [ ]
+      "prompts" : [ ],
+      "array" : false
     } ],
     "priority" : 0
   }, {
-    "id" : 11237526,
+    "id" : 11237614,
     "path" : "/Давай поиграем",
     "enabled" : true,
     "shared" : false,
@@ -52,7 +84,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 11237545,
+    "id" : 11237615,
     "path" : "/Несогласие",
     "enabled" : true,
     "shared" : false,
@@ -74,7 +106,7 @@
     "patterns" : [ ],
     "priority" : 0
   }, {
-    "id" : 11237515,
+    "id" : 11237616,
     "path" : "/Выход",
     "enabled" : true,
     "shared" : false,
@@ -108,37 +140,6 @@
       "text" : "стоп"
     } ],
     "patterns" : [ ],
-    "priority" : 0
-  }, {
-    "id" : 11237548,
-    "path" : "/Согласие",
-    "enabled" : true,
-    "shared" : false,
-    "phrases" : [ {
-      "text" : "буду"
-    }, {
-      "text" : "хочу"
-    }, {
-      "text" : "начнем"
-    }, {
-      "text" : "согласен"
-    }, {
-      "text" : "давай"
-    }, {
-      "text" : "Давай"
-    }, {
-      "text" : "да"
-    }, {
-      "text" : "Да"
-    } ],
-    "patterns" : [ ],
-    "slots" : [ {
-      "name" : "Number",
-      "entity" : "duckling.number",
-      "required" : true,
-      "prompts" : [ "Я загадал число. Твоя догадка? ", "Предположи число." ],
-      "array" : true
-    } ],
     "priority" : 0
   } ],
   "entities" : [ ],
