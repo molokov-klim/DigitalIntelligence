@@ -16,21 +16,128 @@
     "shared" : false
   },
   "intents" : [ {
-    "id" : 11237509,
-    "path" : "/пока",
+    "id" : 11237549,
+    "path" : "/Число",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
-      "text" : "пока"
+      "text" : "@duckling.number"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "Number",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ ]
     } ],
     "priority" : 0
   }, {
-    "id" : 11237510,
-    "path" : "/привет",
+    "id" : 11237526,
+    "path" : "/Давай поиграем",
     "enabled" : true,
     "shared" : false,
     "phrases" : [ {
-      "text" : "привет"
+      "text" : "старт"
+    }, {
+      "text" : "game"
+    }, {
+      "text" : "игра"
+    }, {
+      "text" : "играть"
+    }, {
+      "text" : "давай поиграем"
+    }, {
+      "text" : "хочу играть"
+    } ],
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "id" : 11237545,
+    "path" : "/Несогласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "Нет"
+    }, {
+      "text" : "отвали"
+    }, {
+      "text" : "отстань"
+    }, {
+      "text" : "не хочу"
+    }, {
+      "text" : "не буду"
+    }, {
+      "text" : "не"
+    }, {
+      "text" : "нет"
+    } ],
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "id" : 11237515,
+    "path" : "/Выход",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "все"
+    }, {
+      "text" : "сгинь"
+    }, {
+      "text" : "отстань"
+    }, {
+      "text" : "отвали"
+    }, {
+      "text" : "мне надоело"
+    }, {
+      "text" : "не буду"
+    }, {
+      "text" : "сдаюсь"
+    }, {
+      "text" : "не хочу"
+    }, {
+      "text" : "устал"
+    }, {
+      "text" : "я устал"
+    }, {
+      "text" : "выход"
+    }, {
+      "text" : "хватит"
+    }, {
+      "text" : "надоело"
+    }, {
+      "text" : "стоп"
+    } ],
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "id" : 11237548,
+    "path" : "/Согласие",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "буду"
+    }, {
+      "text" : "хочу"
+    }, {
+      "text" : "начнем"
+    }, {
+      "text" : "согласен"
+    }, {
+      "text" : "давай"
+    }, {
+      "text" : "Давай"
+    }, {
+      "text" : "да"
+    }, {
+      "text" : "Да"
+    } ],
+    "patterns" : [ ],
+    "slots" : [ {
+      "name" : "Number",
+      "entity" : "duckling.number",
+      "required" : true,
+      "prompts" : [ "Я загадал число. Твоя догадка? ", "Предположи число." ],
+      "array" : true
     } ],
     "priority" : 0
   } ],
