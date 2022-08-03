@@ -1,5 +1,5 @@
 # DigitalIntelligence
-job placement test (JAICP DSL + JavaScript)
+job placement test (JAICP DSL + JavaScript) Telegram bot
 
 Перенес проект со своего второго аккаунта, поэтому одним коммитом. Так как в условиях тестового задания было предоставление токена со всеми правами.
 
